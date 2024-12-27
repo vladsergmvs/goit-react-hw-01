@@ -1,0 +1,28 @@
+.card{
+   
+    border: 3px solid black;
+   border-radius: 10px;
+
+   & img{
+    display: block;
+     margin: 10px auto;
+    background-color: gray;
+    border-radius: 50%;
+   }
+   & p{
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+   
+   }
+   & ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   & li{
+    display: flex;
+    flex-direction: column;
+   }
+}
+

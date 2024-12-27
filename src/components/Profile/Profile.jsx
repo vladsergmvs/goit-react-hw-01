@@ -1,16 +1,19 @@
+import styles from '../Profile/Profile.module.css';
+
 const Profile = ({ name, tag, location, image, stats:{followers, views, likes} }) => {
   return (
-    <div>
+    <div className={styles.card}>
 
       <div>
     
-        <img
+        <img 
           src={image}
           alt="User avatar"
+          width='40%'
         />
-         <p>{name}</p>
-         <p>@{tag}</p>
-         <p>{location}</p>
+         <p >{name}</p>
+         <p >@{tag}</p>
+         <p >{location}</p>
       </div>
     
       <ul>
