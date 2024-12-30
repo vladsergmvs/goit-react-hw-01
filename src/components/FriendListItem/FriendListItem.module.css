@@ -5,5 +5,9 @@
   color: green;
 }
 .card {
+ 
+  text-align: center;
+ & p{
   margin: 0 auto;
+}
 }
